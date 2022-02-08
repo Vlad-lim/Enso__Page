@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
@@ -21,16 +21,28 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   min-height: 40vh;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.589)), to(rgba(0, 0, 0, 0.582))), url(src/img/header-background.jpeg) no-repeat;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.582)), url(src/img/header-background.jpeg) no-repeat;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(0, 0, 0, 0.589)),
+      to(rgba(0, 0, 0, 0.582))
+    ),
+    url(src/img/header-background.jpeg) no-repeat;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.589),
+      rgba(0, 0, 0, 0.582)
+    ),
+    url(src/img/header-background.jpeg) no-repeat;
   background-position: 50% 25%;
 }
 
@@ -99,10 +111,10 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 20vh;
 }
 
@@ -131,7 +143,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-top: 10vh;
 }
 
@@ -158,17 +170,17 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #ffffff;
   color: #363636;
   font-size: 35px;
   border-radius: 50%;
   -webkit-box-shadow: inset -4px -4px 14px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: inset -4px -4px 14px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: inset -4px -4px 14px 6px rgba(0, 0, 0, 0.25);
 }
 
 #last_stage {
@@ -187,14 +199,14 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   margin-top: 10vh;
   margin: 0 auto;
 }
@@ -204,11 +216,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 22px;
   max-width: 900px;
   align-items: center;
@@ -239,6 +251,39 @@ button {
 }
 button:hover {
   background: #df6203;
+}
+
+.why-we-con {
+  margin-top: 20vh;
+}
+
+.why-we {
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+.card__why-we {
+  height: auto;
+  max-height: none;
+  width: 100%;
+  max-width: none;
+  margin-top: 40px;
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 21px 0px rgba(34, 60, 80, 0.2);
+}
+.card__why-we span {
+  font-size: 20px;
+}
+.card__why-we h2 {
+  font-size: 20px;
+  margin: 20px 0px;
+  color: rgb(49, 49, 49);
+}
+.card__why-we h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #df6203;
 }
 
 /*Table*/
@@ -321,14 +366,14 @@ button:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-height: 65vh;
   margin-top: 5vh;
 }
@@ -339,11 +384,11 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .form__double-input input {
   width: 45%;
@@ -363,16 +408,20 @@ textarea {
   font-weight: 300;
   margin-top: 20px;
 }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   font-family: "Roboto", sans-serif;
 }
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   font-family: "Roboto", sans-serif;
 }
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
   font-family: "Roboto", sans-serif;
 }
-input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
   font-family: "Roboto", sans-serif;
 }
 input::placeholder,
@@ -389,8 +438,8 @@ textarea::placeholder {
   .card-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .card {
@@ -403,15 +452,15 @@ textarea::placeholder {
   .stages {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .stage {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     width: 100%;
     text-align: left;
   }
@@ -425,8 +474,8 @@ textarea::placeholder {
   .stage {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 300px;
   }
   .stage span {
@@ -442,8 +491,8 @@ textarea::placeholder {
   .form__double-input {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .form__double-input input {
     width: 95%;
@@ -454,7 +503,7 @@ textarea::placeholder {
     padding: 20px;
   }
   .form-section div input,
-.form-section div textarea {
+  .form-section div textarea {
     margin-left: 0;
     padding: 10px;
     font-size: 20px;
@@ -468,14 +517,14 @@ textarea::placeholder {
   .benefit__item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 100%;
     text-align: center;
   }
