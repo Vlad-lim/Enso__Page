@@ -540,3 +540,22 @@ textarea::placeholder {
     display: block;
   }
 }
+.pay h2 {
+  color: #df6203;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.pay span {
+  font-size: 30px;
+  color: #363636;
+  font-weight: 500;
+}
+.pay .card {
+  height: auto;
+  -webkit-box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.2);
+  padding: 50px 30px;
+}
